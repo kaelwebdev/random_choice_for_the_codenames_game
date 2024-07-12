@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Random choice for the Codenames game",
+    "version": "1.0",
+    "description": "Generate random numbers between 1 and a specified max, ignoring a specific number.",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "16": "codenames_icon_16_x_16.png",
+        "48": "codenames_icon_48_x_48.png",
+        "128": "codenames_icon_128_x_128.png"
+    }
+}
